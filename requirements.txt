@@ -1,0 +1,9 @@
+mediapipe>=0.10.21
+numpy>=1.26,<2
+scipy>=1.11,<1.14
+opencv-python>=4.8,<4.10
+PyQt5>=5.15
+pyqtgraph>=0.13
+
+fastapi>=0.115
+uvicorn[standard]>=0.30

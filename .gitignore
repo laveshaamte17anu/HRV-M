@@ -1,0 +1,43 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# The generic `lib/` rule above is from the Python packaging template, but
+# web/src/lib/ holds our TypeScript signal-processing modules — keep them.
+!web/src/lib/
+
+# Benchmark data — derived from UBFC-rPPG dataset, too large + licensed
+benchmark/data/ubfc_rgb/
+benchmark/data/ubfc_ds1_rgb/
+benchmark/data/ubfc_results.csv
